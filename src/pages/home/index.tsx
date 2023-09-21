@@ -23,6 +23,7 @@ import {
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
 } from "./style";
+import { About } from "@/components/About";
 
 
 export const Home = (): JSX.Element => {
@@ -50,6 +51,7 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
+      <About/>
       <StackSection id="tecnologias">
         <Container>
           <Text as="h4" type="heading3" color="grey1">
