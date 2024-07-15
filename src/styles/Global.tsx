@@ -75,6 +75,7 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       grey6: "#DEE0FB",
       whiteFixed: "#ffffff",
       mode: "#ffffff",
+      pattern: "#212121"
     },
     sizes: {
       container: "75rem",

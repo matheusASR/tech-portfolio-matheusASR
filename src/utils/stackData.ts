@@ -1,41 +1,52 @@
-import imgHTML from "../public/static/img/stack/html.svg";
-import imgCSS from "../public/static/img/stack/css.svg";
-import imgJS from "../public/static/img/stack/js.svg";
-import imgNode from "../public/static/img/stack/node.svg";
-import imgStyled from "../public/static/img/stack/styled.svg";
-import imgReact from "../public/static/img/stack/react.svg";
-import imgPython from "../public/static/img/stack/python.jpg";
-import imgPostgres from "../public/static/img/stack/postgresql.jpeg";
-import { SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import {
+  SiTypescript,
+  SiReact,
+  SiCss3,
+  SiTailwindcss,
+  SiHtml5,
+  SiNextdotjs,
+  SiPostgresql,
+  SiPython,
+  SiNodedotjs,
+  SiJavascript,
+  SiStyledcomponents,
+  SiTrello,
+  SiSlack,
+  SiJira,
+} from "react-icons/si";
 
 export const stackData = [
   {
     title: "HTML",
-    img: imgHTML,
+    img: SiHtml5,
   },
   {
     title: "CSS",
-    img: imgCSS,
+    img: SiCss3,
   },
   {
     title: "JS",
-    img: imgJS,
+    img: SiJavascript,
   },
   {
     title: "Node JS",
-    img: imgNode,
+    img: SiNodedotjs,
   },
   {
     title: "Styled Components",
-    img: imgStyled,
+    img: SiStyledcomponents,
   },
   {
     title: "React",
-    img: imgReact,
+    img: SiReact,
   },
-  { title: "PostgreSQL", img: imgPostgres },
+  { title: "React Native", img: SiReact },
+  { title: "PostgreSQL", img: SiPostgresql },
   { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
-  { title: "Python", img: imgPython },
+  { title: "Python", img: SiPython },
+  { title: "Next", img: SiNextdotjs },
+  { title: "Tailwind CSS", img: SiTailwindcss },
+  { title: "Trello", img: SiTrello },
+  { title: "Slack", img: SiSlack },
+  { title: "Jira", img: SiJira },
 ];
